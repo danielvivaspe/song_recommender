@@ -1,10 +1,10 @@
 import numpy as np
 import pandas
 
-class recommender():
+class Recommender():
     def __init__(self, train_data):
-        self.user_id = 'UserID'
-        self.item_id = 'song'
+        self.user_id = 'userID'
+        self.item_id = 'songID'
         self.train_data = train_data
         self.cooccurence_matrix = None
 
