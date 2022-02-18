@@ -1,3 +1,4 @@
 tables~=3.7.0
 numpy~=1.21.5
 pandas~=1.1.5
+scikit-surprise~=1.1.1
