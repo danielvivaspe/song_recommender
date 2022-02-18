@@ -5,8 +5,9 @@ from phases import phase2
 from phases import phase3
 from phases import phase4
 from phases import phase5
+from phases import phase6
+from phases import phase7
 
-import os
 
 st.set_page_config(page_title='SONG RECOMMENDER', page_icon='img/msd.png', layout='wide')
 
@@ -24,7 +25,9 @@ selectedPhase = st.sidebar.selectbox('Fase', [
     '2. Fuentes',
     '3. Limpieza y preparación de los datos',
     '4. Entendiendo el recomendador',
-    '5. Haciendo recomendaciones'
+    '5. Haciendo recomendaciones',
+    '6. Planificación a futuro',
+    '7. Agradecimientos'
 ])
 
 if selectedPhase == '1. Introducción':
@@ -37,6 +40,10 @@ elif selectedPhase == '4. Entendiendo el recomendador':
     phase4.phase4()
 elif selectedPhase == '5. Haciendo recomendaciones':
     phase5.phase5()
+elif selectedPhase == '6. Planificación a futuro':
+    phase6.phase6()
+elif selectedPhase == '7. Agradecimientos':
+    phase7.phase7()
 
 st.sidebar.markdown("""
     ***
